@@ -125,7 +125,6 @@ function menu() {
                     connection.destroy();
                 });
             } else {
-                // Recursion to re-enter store
                 enterStore();
             }
             // catch errors
